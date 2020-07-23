@@ -1,9 +1,11 @@
 import React from 'react'
 
+
+
 export const Header = () => {
     return (
         <div>
-            <header class="hero">
+             <header class="hero">
                 <div id="navbar" class="navbar top">
                     <h1 class="logo">
                         <span class="text-primary">

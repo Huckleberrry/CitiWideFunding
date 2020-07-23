@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
 import Header from '../src/component/layout/Header'
 import About from '../src/component/layout/About'
 import Solutions from '../src/component/layout/Solutions'
@@ -16,6 +17,9 @@ import Lightbox from '../src/css/lightbox.min.css'
 
 
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -25,7 +29,6 @@ function App() {
       <Cases />
       <Blog />
       <Teams />
-      <Contact />
       <Footer />
     </div>
   );
