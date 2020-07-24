@@ -3,15 +3,17 @@ import React from 'react'
 export const Cases = () => {
     return (
         <div>
-                  <section id="purchase" class="cases flex-grid section-padding">
-        <header class="section-header">
-          <h4>This is what we do</h4>
-          <h2>Homes For Sale</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
-            dolore!
-          </p>
-        </header>
+          <section id="purchase" class="cases flex-grid section-padding">
+            <header class="section-header">
+              <h4>This is what we do</h4>
+                <h2>
+                  Homes For Sale
+                </h2>
+                   <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+                      dolore!
+                    </p>
+            </header>
         <div class="row">
           <div class="column">
             <a
